@@ -10,7 +10,7 @@ import com.hankcs.hanlp.utility.Predefine;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.message.ParameterizedMessage;
-import org.elasticsearch.core.internal.io.IOUtils;
+import org.opensearch.core.internal.io.IOUtils;
 
 import java.io.BufferedOutputStream;
 import java.io.DataOutputStream;
@@ -21,7 +21,7 @@ import java.security.PrivilegedAction;
 import java.util.List;
 
 /**
- * Project: elasticsearch-analysis-hanlp
+ * Project: opensearch-analysis-hanlp
  * Description: 对原停用词过滤做了修改，删除了对词性过滤，只对停用词词典中词进行过滤
  * Author: Hankcs
  * Editor Kenn

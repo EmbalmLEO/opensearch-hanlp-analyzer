@@ -14,7 +14,7 @@ import com.hankcs.cfg.Configuration;
 import com.hankcs.hanlp.dictionary.other.CharTable;
 import com.hankcs.hanlp.seg.Segment;
 import com.hankcs.hanlp.seg.common.Term;
-import org.elasticsearch.common.util.set.Sets;
+import org.opensearch.common.util.set.Sets;
 
 import java.io.IOException;
 import java.io.Reader;

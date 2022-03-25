@@ -6,7 +6,7 @@ import com.hankcs.hanlp.utility.Predefine;
 import com.hankcs.utility.CustomDictionaryUtility;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.elasticsearch.SpecialPermission;
+import org.opensearch.SpecialPermission;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -21,7 +21,7 @@ import java.util.Objects;
 import java.util.Properties;
 
 /**
- * Project: elasticsearch-analysis-hanlp
+ * Project: opensearch-analysis-hanlp
  * Description: 自定义词典监控线程
  * Author: Kenn
  * Create: 2018-12-14 15:10

@@ -1,4 +1,4 @@
-package org.elasticsearch.index.analysis;
+package org.opensearch.index.analysis;
 
 import com.hankcs.cfg.Configuration;
 import com.hankcs.lucene.HanLPAnalyzer;
@@ -10,12 +10,13 @@ import com.hankcs.lucene.HanLPNShortAnalyzer;
 import com.hankcs.lucene.HanLPSpeedAnalyzer;
 import com.hankcs.lucene.HanLPStandardAnalyzer;
 import org.apache.lucene.analysis.Analyzer;
-import org.elasticsearch.common.settings.Settings;
-import org.elasticsearch.env.Environment;
-import org.elasticsearch.index.IndexSettings;
+import org.opensearch.common.settings.Settings;
+import org.opensearch.env.Environment;
+import org.opensearch.index.IndexSettings;
+import org.opensearch.index.analysis.AbstractIndexAnalyzerProvider;
 
 /**
- * Project: elasticsearch-analysis-hanlp
+ * Project: opensearch-analysis-hanlp
  * Description: Hanlp analyzer provider
  * Author: Kenn
  * Create: 2018-12-14 15:10

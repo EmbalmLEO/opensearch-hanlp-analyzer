@@ -7,7 +7,7 @@ import java.nio.charset.StandardCharsets;
 import java.util.Objects;
 
 /**
- * Project: elasticsearch-analysis-hanlp
+ * Project: opensearch-analysis-hanlp
  * Description: 自定义词典文件信息
  * Author: Kenn
  * Create:

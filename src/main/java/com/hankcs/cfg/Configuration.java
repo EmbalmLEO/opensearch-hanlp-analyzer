@@ -1,12 +1,12 @@
 package com.hankcs.cfg;
 
 import com.hankcs.dic.Dictionary;
-import org.elasticsearch.common.inject.Inject;
-import org.elasticsearch.common.settings.Settings;
-import org.elasticsearch.env.Environment;
+import org.opensearch.common.inject.Inject;
+import org.opensearch.common.settings.Settings;
+import org.opensearch.env.Environment;
 
 /**
- * Project: elasticsearch-analysis-hanlp
+ * Project: opensearch-analysis-hanlp
  * Description: 配置信息
  * Author: Kenn
  * Create: 2018-12-14 15:10

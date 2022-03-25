@@ -3,7 +3,7 @@ package com.hankcs.dic.config;
 import com.hankcs.dic.Dictionary;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.elasticsearch.core.internal.io.IOUtils;
+import org.opensearch.core.internal.io.IOUtils;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -13,7 +13,7 @@ import java.util.List;
 import java.util.Properties;
 
 /**
- * Project: elasticsearch-analysis-hanlp
+ * Project: opensearch-analysis-hanlp
  * Description: 远程词典配置
  * Author: Kenn
  * Create: 2018-12-18 15:23

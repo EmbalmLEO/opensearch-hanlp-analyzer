@@ -12,7 +12,7 @@ import java.security.AccessController;
 import java.security.PrivilegedAction;
 
 /**
- * Project: elasticsearch-analysis-hanlp
+ * Project: opensearch-analysis-hanlp
  * Description: CRF分析器
  * Author: Kenn
  * Create: 2021-01-30 01:22

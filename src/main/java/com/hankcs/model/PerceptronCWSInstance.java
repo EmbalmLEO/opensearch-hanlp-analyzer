@@ -5,7 +5,7 @@ import com.hankcs.hanlp.model.perceptron.model.LinearModel;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.message.ParameterizedMessage;
-import org.elasticsearch.common.io.FileSystemUtils;
+import org.opensearch.common.io.FileSystemUtils;
 
 import java.io.IOException;
 import java.nio.file.Paths;
@@ -13,7 +13,7 @@ import java.security.AccessController;
 import java.security.PrivilegedAction;
 
 /**
- * Project: elasticsearch-analysis-hanlp
+ * Project: opensearch-analysis-hanlp
  * Description:
  * Author: Kenn
  * Create: 2020-10-09 09:47

@@ -9,7 +9,7 @@ out/
 # include shared intellij config
 !.idea/scopes/x_pack.xml
 !.idea/inspectionProfiles/Project_Default.xml
-!.idea/runConfigurations/Debug_Elasticsearch.xml
+!.idea/runConfigurations/Debug_Opensearch.xml
 
 # These files are generated in the main tree by IntelliJ
 benchmarks/src/main/generated/*

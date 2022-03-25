@@ -17,9 +17,9 @@ import org.apache.http.impl.client.HttpClients;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.message.ParameterizedMessage;
-import org.elasticsearch.SpecialPermission;
-import org.elasticsearch.common.collect.Tuple;
-import org.elasticsearch.core.internal.io.IOUtils;
+import org.opensearch.SpecialPermission;
+import org.opensearch.common.collect.Tuple;
+import org.opensearch.core.internal.io.IOUtils;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -30,7 +30,7 @@ import java.security.AccessController;
 import java.security.PrivilegedAction;
 
 /**
- * Project: elasticsearch-analysis-hanlp
+ * Project: opensearch-analysis-hanlp
  * Description: 自定义远程词典监控线程
  * Author: Kenn
  * Create: 2018-12-14 15:10

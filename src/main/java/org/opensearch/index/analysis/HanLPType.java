@@ -1,7 +1,7 @@
-package org.elasticsearch.index.analysis;
+package org.opensearch.index.analysis;
 
 /**
- * Project: elasticsearch-analysis-hanlp
+ * Project: opensearch-analysis-hanlp
  * Description: Hanlp分词类型
  * Author: Kenn
  * Create: 2018-12-14 15:10

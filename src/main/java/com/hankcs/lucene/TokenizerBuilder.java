@@ -11,7 +11,7 @@ import java.security.PrivilegedAction;
 import java.util.List;
 
 /**
- * Project: elasticsearch-analysis-hanlp
+ * Project: opensearch-analysis-hanlp
  * Description:
  * Author: Kenn
  * Create: 2019-04-25 09:47

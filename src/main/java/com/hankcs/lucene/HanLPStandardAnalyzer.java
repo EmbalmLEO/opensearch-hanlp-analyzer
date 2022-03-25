@@ -9,7 +9,7 @@ import java.security.AccessController;
 import java.security.PrivilegedAction;
 
 /**
- * Project: elasticsearch-analysis-hanlp
+ * Project: opensearch-analysis-hanlp
  * Description: 标准分析器
  * Author: Kenn
  * Create: 2018-12-14 15:10

@@ -4,8 +4,8 @@ import com.hankcs.cfg.Configuration;
 import com.hankcs.dic.DictionaryFile;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.elasticsearch.core.internal.io.IOUtils;
-import org.elasticsearch.plugin.analysis.hanlp.AnalysisHanLPPlugin;
+import org.opensearch.core.internal.io.IOUtils;
+import org.opensearch.plugin.analysis.hanlp.AnalysisHanLPPlugin;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
@@ -21,7 +21,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * Project: elasticsearch-analysis-hanlp
+ * Project: opensearch-analysis-hanlp
  * Description: 自定义词典文件信息缓存
  * Author: Kenn
  * Create: 2018-12-14 15:10

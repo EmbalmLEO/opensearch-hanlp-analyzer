@@ -25,7 +25,7 @@ import java.util.List;
 import java.util.TreeMap;
 
 /**
- * Project: elasticsearch-analysis-hanlp
+ * Project: opensearch-analysis-hanlp
  * Description: 自定义分词工具类
  * Author: Kenn
  * Create: 2018-12-14 15:10

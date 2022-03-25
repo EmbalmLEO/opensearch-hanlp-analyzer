@@ -3,7 +3,7 @@ package com.hankcs.dic;
 import com.hankcs.cfg.Configuration;
 import com.hankcs.dic.cache.DictionaryFileCache;
 import com.hankcs.dic.config.RemoteDictConfig;
-import org.elasticsearch.plugin.analysis.hanlp.AnalysisHanLPPlugin;
+import org.opensearch.plugin.analysis.hanlp.AnalysisHanLPPlugin;
 
 import java.nio.file.Path;
 import java.util.concurrent.Executors;
@@ -13,7 +13,7 @@ import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**
- * Project: elasticsearch-analysis-hanlp
+ * Project: opensearch-analysis-hanlp
  * Description: 词典类
  * Author: Kenn
  * Create: 2018-12-14 15:10
