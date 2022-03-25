@@ -4,22 +4,23 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath "org.elasticsearch.gradle:build-tools:${elasticsearchVersion}"
+        classpath "org.opensearch.gradle:build-tools:${opensearchVersion}"
     }
 }
 
-group = 'org.elasticsearch'
-version = "$elasticsearchVersion"
-description = 'elasticsearch-analysis-hanlp'
+group = 'org.opensearch'
+version = "$opensearchVersion"
+description = 'opensearch-analysis-hanlp'
 
 apply plugin: 'java'
 apply plugin: 'idea'
-apply plugin: 'elasticsearch.esplugin'
+apply plugin: 'opensearch.opensearchplugin'
+apply plugin: 'checkstyle'
 
-esplugin {
+opensearchplugin {
     name 'analysis-hanlp'
-    description 'HanLP Analyzer for ElasticSearch'
-    classname 'org.elasticsearch.plugin.analysis.hanlp.AnalysisHanLPPlugin'
+    description 'HanLP Analyzer for Opensearch'
+    classname 'org.opensearch.plugin.analysis.hanlp.AnalysisHanLPPlugin'
     licenseFile = rootProject.file('LICENSE.txt')
     noticeFile = rootProject.file('NOTICE.txt')
 }
@@ -38,8 +39,8 @@ sourcesJar {
 
 assemble {
     doLast {
-        file("build/distributions/analysis-hanlp-${elasticsearchVersion}.zip").renameTo(file("build/distributions/${rootProject.name}-${elasticsearchVersion}.zip"))
-        ant.checksum file: "build/distributions/${rootProject.name}-${elasticsearchVersion}.zip"
+        file("build/distributions/analysis-hanlp-${opensearchVersion}.zip").renameTo(file("build/distributions/${rootProject.name}-${opensearchVersion}.zip"))
+        ant.checksum file: "build/distributions/${rootProject.name}-${opensearchVersion}.zip"
     }
 }
 
