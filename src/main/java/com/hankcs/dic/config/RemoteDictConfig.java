@@ -3,7 +3,8 @@ package com.hankcs.dic.config;
 import com.hankcs.dic.Dictionary;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.opensearch.core.internal.io.IOUtils;
+import org.opensearch.common.util.io.IOUtils;
+
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

@@ -4,7 +4,8 @@ import com.hankcs.cfg.Configuration;
 import com.hankcs.dic.DictionaryFile;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.opensearch.core.internal.io.IOUtils;
+
+import org.opensearch.common.util.io.IOUtils;
 import org.opensearch.plugin.analysis.hanlp.AnalysisHanLPPlugin;
 
 import java.io.DataInputStream;

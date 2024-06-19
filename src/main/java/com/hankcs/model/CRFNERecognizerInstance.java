@@ -5,7 +5,8 @@ import com.hankcs.hanlp.model.crf.CRFNERecognizer;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.message.ParameterizedMessage;
-import org.opensearch.common.io.FileSystemUtils;
+import org.opensearch.core.util.FileSystemUtils;
+
 
 import java.io.IOException;
 import java.nio.file.Paths;
